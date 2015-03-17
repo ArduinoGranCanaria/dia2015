@@ -1,0 +1,141 @@
+body {
+  background: #ffffff;
+  color: #222;
+  font-family:'PT Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+}
+
+h1 {
+  color: #3e9b31;
+}
+
+
+h2 {	
+  color: #1590c7;
+}
+
+.ponente {
+  font-style: italic;
+}
+	
+.ponencia {
+  font-weight: bold;
+}
+	
+#menu a, a:visited {
+  text-decoration: none;
+  color: #E47128;
+  margin: 0pt 12pt 0pt 12pt;
+}
+
+#space {
+  height: 100px;
+}
+
+#nav-bar {
+  background: #f7f9f9;
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 99;
+  padding: 15px;
+}
+
+#nav-bar-logo-ul ul {
+  width: 25%;
+}
+
+#nav-bar-logo {
+  float: left;
+  background-image: url("./img/arduinogc-50px.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 50px;
+  width: 25%;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+#nav-bar-menu-ul ul {
+  list-style: none;
+  width: 75%;
+}
+
+#nav-bar-logodia-ul ul {
+  width: 25%;
+}
+
+#nav-bar-logodia {
+  float: right;
+  background-image: url("./img/dia-arduino-2015.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 50px;
+  width: 600px;
+  margin-right: 50px;
+}
+
+#agenda {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#agenda-ulpgc {
+  float: left;
+  width: 50%;
+  margin: 0;
+  text-align: center;
+}
+
+#agenda-cepsurgc {
+  width: 50%;
+  margin: 0;
+  text-align: center;
+}
+
+#content {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#content a, a:visited {
+  color: #E47128;
+}
+
+#arduino-day-banner {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#organizers-banner {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.image-centered {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#foot {
+  background: #00979d;
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+
+#foot a {
+  color: #ffffff;
+}
